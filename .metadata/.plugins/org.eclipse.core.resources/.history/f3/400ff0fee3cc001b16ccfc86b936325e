@@ -1,0 +1,13 @@
+import java.text.SimpleDateFormat;
+public class CurrentTime {
+
+	public static void main(String[] args) {
+		CurrentTime ct = new CurrentTime();
+		ct.now();
+
+	}
+public String now() {
+	SimpleDateFormat sdf = new SimpleDateFormat("HH시 MM분 SS초");
+	return sdf.format(new Date());
+}
+}
