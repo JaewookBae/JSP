@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+	var today = new Date();
+	var year = today.getFullYear();
+	var month = today.getMonth()+1;
+	var date = today.getDate();
+	var day = today.getDay();
+	document.write(year+"/"+month+"/"+date+"<br>");
+	document.write("요일: "+date+"<br><br>");
+	
+	var hours = today.getHours();
+	var minutes = today.getMinutes();
+	var seconds = today.getSeconds();
+	document.write(hours+" : "+minutes+" : "+seconds);
+</script>
+</body>
+</html>
