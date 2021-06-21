@@ -8,9 +8,13 @@
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.Statement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="javax.xml.ws.Response"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="com.dto.EmpDTO"/>
 <fullyQualifiedTypeName name="com.dao.EmpDAO"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+=======
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+>>>>>>> 35ea726b4bd5a3e38b9e593a0b9f0a7411c3d0e0
 </qualifiedTypeNameHistroy>
