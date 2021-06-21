@@ -1,20 +1,8 @@
 INDEX VERSION 1.4+C:\JspSpace3\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-<<<<<<< HEAD
-=======
-1888384281.index
-147571168.index
-1702646809.index
->>>>>>> 35ea726b4bd5a3e38b9e593a0b9f0a7411c3d0e0
-1450108805.index
 1263891317.index
-2063648043.index
-<<<<<<< HEAD
 1702646809.index
 814122752.index
+1450108805.index
+2063648043.index
+3682833016.index
 1888384281.index
-3682833016.index
-=======
-3682833016.index
-340983300.index
-1263891317.index
->>>>>>> 35ea726b4bd5a3e38b9e593a0b9f0a7411c3d0e0

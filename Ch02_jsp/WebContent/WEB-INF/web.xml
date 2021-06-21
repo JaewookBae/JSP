@@ -9,4 +9,45 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+
+<servlet>
+ 	<servlet-name>Sports</servlet-name>
+ 	<servlet-class>study03_request.SportServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+     <servlet-name>Sports</servlet-name>
+     <url-pattern>/study03/Sport</url-pattern>
+ </servlet-mapping>
+
+<!-->사이트 방문자 모두(application)에게 적용되는 내용 - 전역변수-->
+<context-param>
+<param-name>driver</param-name>
+<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+</context-param>
+
+<context-param>
+<param-name>savePath</param-name>
+<param-value>c:\\jsp</param-value>
+</context-param>
+
+<!-- 특정 서블릿에서만 사용할 수 있는 전역변수 -->
+<servlet>
+<servlet-name>InitParam</servlet-name>
+<servlet-class>application.InitParamServlet</servlet-class>
+<init-param>
+<param-name>dirPath</param-name>
+<param-value>c:\\Jsp</param-value>
+</init-param>
+<init-param>
+<param-name>userid</param-name>
+<param-value>admin</param-value>
+</init-param>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>InitParam</servlet-name>
+<url-pattern>/InitParam</url-pattern>
+</servlet-mapping>
+
+
 </web-app>
