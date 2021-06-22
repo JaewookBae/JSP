@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Ch01_Servlet&apos;" deleteContents="true" description="Delete resource &apos;Ch01_Servlet&apos;" element1="/Ch01_Servlet" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1623656282199"/>&#x0A;<refactoring comment="Delete resource &apos;Ch01_Servlet2&apos;" deleteContents="true" description="Delete resource &apos;Ch01_Servlet2&apos;" element1="/Ch01_Servlet2" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1623717419458"/>
+=======
 <session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Ch01_Servlet&apos;" deleteContents="true" description="Delete resource &apos;Ch01_Servlet&apos;" element1="/Ch01_Servlet" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1623656282199"/>&#x0A;<refactoring comment="Delete resource &apos;Ch01_Servlet2&apos;" deleteContents="true" description="Delete resource &apos;Ch01_Servlet2&apos;" element1="/Ch01_Servlet2" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1623717419458"/>&#x0A;<refactoring comment="Rename resource &apos;Ch02_jsp&apos; to &apos;Ch02_Jsp&apos;" description="Rename resource &apos;Ch02_jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Ch02_jsp" name="Ch02_Jsp" stamp="1623976979525" updateReferences="true"/>
+>>>>>>> 35ea726b4bd5a3e38b9e593a0b9f0a7411c3d0e0
 </session>
